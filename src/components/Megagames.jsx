@@ -1,15 +1,14 @@
-'use client'
-import LoginForm from '@/components/LoginForm'
-import HoverBonus from '@/components/HoverBonus'
-import React, { useState } from 'react'
-import LoginModal from '../../components/LoginModal'
-import MobileLogin from '@/components/MobileLoginPage'
-const page = () => {
-  const [isLoginModalOpen, setIsLoginModalOpen] = useState(true);
-  const [isHovered, setIsHovered] = useState(false);
+import React from 'react'
+
+const Megagames = () => {
   return (
-    <div>
-      {/* <div className="absolute z-50 top-full left-0 bg-white text-black shadow-lg mt-2 rounded-md p-4 grid grid-cols-3 gap-4">
+    <>
+     <div
+            onMouseEnter={() => setIsMegaGamesOpen(true)}
+             onMouseLeave={() => setIsMegaGamesOpen(false)}
+             className="absolute z-50 top-[100px] left-1/2 transform -translate-x-1/2 bg-white w-[500px]
+             text-black shadow-lg mt-2 rounded-md p-4 ">
+            <div className="grid grid-cols-3 gap-4">
               <div>
                 <p className="hover:text-blue-500 cursor-pointer">Crash</p>
                 <p className="hover:text-blue-500 cursor-pointer">Crystal</p>
@@ -31,15 +30,15 @@ const page = () => {
                 <p className="hover:text-blue-500 cursor-pointer">Spin and Win</p>
                 <p className="hover:text-blue-500 cursor-pointer">Gems Odyssey</p>
               </div>
-            </div> */}
 
-            {/* <LoginForm/> */}
-            {/* <LoginModal onClose={() => setIsLoginModalOpen(false)}/> */}
-            {isLoginModalOpen && <LoginModal onClose={() => setIsLoginModalOpen(false)} />}
-            <MobileLogin/>
-            <HoverBonus/>
-    </div>
+            </div>
+
+            <button className="w-full mt-2 bg-gray-200 text-black py-2 rounded">
+            SHOW ALL
+          </button>
+            </div>
+    </>
   )
 }
 
-export default page
+export default Megagames
