@@ -20,7 +20,7 @@ const Navbar2Bootsrapp = () => {
       <div className="container-fluid">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
           <li className="nav-item">
-            <a className="nav-link active" href="#">
+            <a className="nav-link active" href="/cricket">
               CRICKET
             </a>
           </li>

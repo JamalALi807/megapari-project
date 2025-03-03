@@ -1,11 +1,10 @@
 import React from 'react'
 
-const Megagames = () => {
+const setIsMegaGames = () => {
   return (
     <>
      <div
-            onMouseEnter={() => setIsMegaGamesOpen(true)}
-             onMouseLeave={() => setIsMegaGamesOpen(false)}
+          
              className="absolute z-50 top-[100px] left-1/2 transform -translate-x-1/2 bg-white w-[500px]
              text-black shadow-lg mt-2 rounded-md p-4 ">
             <div className="grid grid-cols-3 gap-4">
@@ -41,4 +40,4 @@ const Megagames = () => {
   )
 }
 
-export default Megagames
+export default setIsMegaGames 

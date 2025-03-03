@@ -17,7 +17,7 @@ const LoginForm = ({onClose}) => {
   const [rememberMe, setRememberMe] = useState(false);
 
   return (
-    <div className="absolute z-30 top-[60px] w-[300px] p-4 bg-white rounded-lg shadow-lg space-y-3">
+    <div className="absolute text-black z-30 top-[60px] w-[300px] p-4 bg-white rounded-lg shadow-lg space-y-3">
        <button 
           onClick={onClose}
           className="absolute right-2 top-2 text-gray-600 hover:text-gray-800 z-10"

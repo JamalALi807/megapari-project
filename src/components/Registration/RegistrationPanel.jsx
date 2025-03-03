@@ -24,7 +24,7 @@ const RegistrationPanel = ({ onClose }) => {
   };
 
   return (
-    <div className="fixed  inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center z-50">
+    <div className="fixed  text-black inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center z-50">
       <div className="bg-white max-w-[1023px] h-[603px] flex flex-row relative">
         {/* Close Button */}
         <button 

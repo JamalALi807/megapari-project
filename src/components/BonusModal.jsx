@@ -13,8 +13,8 @@ const BonusModal = () => {
       
         <div
           className="absolute top-12 left-0 w-[458px] bg-white shadow-md rounded p-4 h-[300px]"
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
+          // onMouseEnter={() => setIsHovered(true)}
+          // onMouseLeave={() => setIsHovered(false)}
         >
           <div
           // onMouseEnter={() => setIsHovered(true)}
