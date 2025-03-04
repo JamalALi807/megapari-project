@@ -11,7 +11,7 @@ const Navbar2Taiwind = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <nav className="bg-blue-500 p-2">
+    <nav className="bg-blue-500 p-2 fixed top-[58px] z-50 w-full">
       <ul className="flex items-center space-x-6 text-white">
         <li>
           <Link className="hover:text-gray-200 cursor-pointer" href="/cricket">CRICKET</Link>

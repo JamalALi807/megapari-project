@@ -1,11 +1,13 @@
 import React from 'react'
-import Home from '../../components/Cricket'
+
+import Crickettwo from '../cricket2/page'
 
 const page = () => {
   return (
     <div>
-        <Home/>
        
+       <Crickettwo/>
+        
     </div>
   )
 }

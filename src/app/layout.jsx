@@ -6,7 +6,7 @@ import Navbar1Tailwind from '@/components/Navbar1';
 import FooterLinks from '@/components/FooterLinks';
 import FooterLinks2 from '@/components/FooterLinks2';
 import AwardFooter from '@/components/AwardFooter';
-
+import Registrationsidebar from '@/components/Registrationsidebar';
 // import Navbar2Bootsrap from '@/components/Navbar2Bootsrapp'
 
 const geistSans = Geist({
@@ -30,6 +30,9 @@ export default function RootLayout({ children }) {
         <FooterLinks />
         <FooterLinks2 />
         <AwardFooter />
+        <div className="">
+<Registrationsidebar/>
+        </div>
       </body>
     </html>
   );

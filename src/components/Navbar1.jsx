@@ -18,7 +18,7 @@ const Navbar1Taiwind = () => {
 
 
   return (
-    <nav className="bg-gray-500 p-3 flex justify-between">
+    <nav className="bg-gray-500 p-3 flex justify-between fixed top-0 w-full z-50">
       <ul className="flex items-center space-x-6 text-white">
         <li className="hover:text-gray-200 cursor-pointer h-[35px] flex"> <p className="text-2xl pr-1 font-bold ">PARI</p> <img className="h-[35px]" src="logo.svg" alt="logo" /> </li>
         <li className="hover:text-gray-200 cursor-pointer h-[35px] flex">   <img className="h-[35px]" src="esport.svg" alt="logo" /> </li>
