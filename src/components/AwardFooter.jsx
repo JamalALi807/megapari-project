@@ -17,7 +17,7 @@ const awards = [
 
 const AwardsFooter = () => {
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer className="bg-gray-900  text-white">
       {/* Awards Section */}
       <div className="py-4">
         <h2 className="px-6 text-xl font-bold mb-4">AWARDS</h2>
